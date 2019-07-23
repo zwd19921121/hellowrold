@@ -18,6 +18,8 @@
         <module>helloworld-java8</module>
         <module>helloworld-thread</module>
         <module>helloworld-springboot</module>
+        <module>helloworld-netty</module>
+        <module>helloworld-designpattern</module>
 
     </modules>
 
