@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="helloworld-designpattern" />
         <module name="helloworld-java8" />
+        <module name="helloworld-jvm" />
         <module name="helloworld-netty" />
         <module name="helloworld-springboot" />
         <module name="helloworld-thread" />

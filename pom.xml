@@ -20,6 +20,7 @@
         <module>helloworld-springboot</module>
         <module>helloworld-netty</module>
         <module>helloworld-designpattern</module>
+        <module>helloworld-jvm</module>
 
     </modules>
 

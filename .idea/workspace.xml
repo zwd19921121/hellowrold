@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f55a1014-a62c-4308-870c-7188aaab194a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/helloworld-designpattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld-jvm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -14,6 +15,7 @@
     <ignored path="$PROJECT_DIR$/helloworld-springboot/target/" />
     <ignored path="$PROJECT_DIR$/helloworld-netty/target/" />
     <ignored path="$PROJECT_DIR$/helloworld-designpattern/target/" />
+    <ignored path="$PROJECT_DIR$/helloworld-jvm/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,61 +25,72 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/pizza/Pizza.java">
+        <entry file="file://$PROJECT_DIR$/helloworld-jvm/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="25">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/pizza/CheesePizza.java">
+        <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
               <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/pizza/GreekPizza.java">
+        <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/order/OrderPizza.java">
+        <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="550">
+              <caret line="22" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="12" selection-start-line="2" selection-end-line="15" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/order/PizzaStore.java">
+        <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="650">
+              <caret line="28" column="1" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -128,6 +141,13 @@
         <option value="$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/pizza/OrderPizza.java" />
         <option value="$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/order/PizzaStore.java" />
         <option value="$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/order/OrderPizza.java" />
+        <option value="$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/MyTest1.java" />
+        <option value="$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest1.java" />
+        <option value="$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest2.java" />
+        <option value="$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest3.java" />
+        <option value="$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest4.java" />
+        <option value="$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest5.java" />
+        <option value="$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest6.java" />
       </list>
     </option>
   </component>
@@ -144,9 +164,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-133" />
-    <option name="y" value="177" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1352" />
     <option name="height" value="815" />
   </component>
@@ -165,65 +185,44 @@
             <path>
               <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
               <item name="hellowrold" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-jvm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
               <item name="hellowrold" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-jvm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
               <item name="hellowrold" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hellowrold" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-jvm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
               <item name="hellowrold" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-jvm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
               <item name="hellowrold" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-jvm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzastore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hellowrold" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzastore" type="462c0819:PsiDirectoryNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
+              <item name="classloader" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +232,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563717634109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567947808672" />
     <property name="last_opened_file_path" value="F:/dev/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -266,13 +265,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PizzaStore">
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhadoop.helloworld.designpattern.simplefactory.pizzastore.order.PizzaStore" />
-      <module name="helloworld-designpattern" />
+  <component name="RunManager" selected="Application.MyTest6">
+    <configuration name="MyTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhadoop.helloworld.jvm.classloader.MyTest2" />
+      <module name="helloworld-jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhadoop.helloworld.designpattern.simplefactory.pizzastore.order.*" />
+          <option name="PATTERN" value="com.zhadoop.helloworld.jvm.classloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhadoop.helloworld.designpattern.singleton.type1.SingletonTest01" />
-      <module name="helloworld-designpattern" />
+    <configuration name="MyTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhadoop.helloworld.jvm.classloader.MyTest3" />
+      <module name="helloworld-jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhadoop.helloworld.designpattern.singleton.type1.*" />
+          <option name="PATTERN" value="com.zhadoop.helloworld.jvm.classloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhadoop.helloworld.designpattern.singleton.type2.SingletonTest02" />
-      <module name="helloworld-designpattern" />
+    <configuration name="MyTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhadoop.helloworld.jvm.classloader.MyTest4" />
+      <module name="helloworld-jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhadoop.helloworld.designpattern.singleton.type2.*" />
+          <option name="PATTERN" value="com.zhadoop.helloworld.jvm.classloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,12 +305,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhadoop.helloworld.designpattern.singleton.type3.SingletonTest03" />
-      <module name="helloworld-designpattern" />
+    <configuration name="MyTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhadoop.helloworld.jvm.classloader.MyTest5" />
+      <module name="helloworld-jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhadoop.helloworld.designpattern.singleton.type3.*" />
+          <option name="PATTERN" value="com.zhadoop.helloworld.jvm.classloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,12 +318,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhadoop.helloworld.designpattern.singleton.type7.SingletonTest07" />
-      <module name="helloworld-designpattern" />
+    <configuration name="MyTest6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhadoop.helloworld.jvm.classloader.MyTest6" />
+      <module name="helloworld-jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhadoop.helloworld.designpattern.singleton.type7.*" />
+          <option name="PATTERN" value="com.zhadoop.helloworld.jvm.classloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,13 +331,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MyTest2" />
+      <item itemvalue="Application.MyTest3" />
+      <item itemvalue="Application.MyTest4" />
+      <item itemvalue="Application.MyTest5" />
+      <item itemvalue="Application.MyTest6" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PizzaStore" />
-        <item itemvalue="Application.SingletonTest07" />
-        <item itemvalue="Application.SingletonTest03" />
-        <item itemvalue="Application.SingletonTest02" />
-        <item itemvalue="Application.SingletonTest01" />
+        <item itemvalue="Application.MyTest6" />
+        <item itemvalue="Application.MyTest5" />
+        <item itemvalue="Application.MyTest4" />
+        <item itemvalue="Application.MyTest3" />
+        <item itemvalue="Application.MyTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -360,6 +366,9 @@
       <workItem from="1563635887355" duration="5422000" />
       <workItem from="1563714518205" duration="3108000" />
       <workItem from="1563717665467" duration="824000" />
+      <workItem from="1564060662334" duration="879000" />
+      <workItem from="1567910100539" duration="9413000" />
+      <workItem from="1568900022755" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="增加了多线程模块">
       <created>1561248697802</created>
@@ -372,12 +381,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19935000" />
+    <option name="totallyTimeSpent" value="30293000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-133" y="177" width="1352" height="815" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26857585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -387,7 +397,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4022663" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27006507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,12 +405,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.13314448" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4126285" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="right" id="PlantUML" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -411,6 +420,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="PlantUML" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,31 +664,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/pizza/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/pizza/CheesePizza.java">
+    <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/order/PizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/pizza/GreekPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -693,14 +685,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/order/PizzaStore.java">
+    <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/pizza/GreekPizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="125">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/pizza/CheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-designpattern/src/main/java/com/zhadoop/helloworld/designpattern/simplefactory/pizzastore/pizza/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-jvm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" selection-start-line="2" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-jvm/src/main/java/com/zhadoop/helloworld/jvm/classloader/MyTest6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="28" column="1" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
