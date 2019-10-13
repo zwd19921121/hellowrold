@@ -1,0 +1,24 @@
+@startuml
+
+interface ScheduledExecutorService
+interface EventExecutorGroup
+interface ExecutorService
+interface EventExecutor
+abstract class AbstractEventExecutor
+abstract class AbstractExecutorService
+interface EventLoop
+class SingleThreadEventExecutor
+class SingleThreadEventLoop
+class NioEventLoop
+
+ScheduledExecutorService <|-- EventExecutorGroup
+EventExecutorGroup <|-- EventExecutor
+ExecutorService <|-- AbstractExecutorService
+EventExecutor <|-- AbstractEventExecutor
+AbstractExecutorService <|-- AbstractEventExecutor
+EventLoop <|-- SingleThreadEventExecutor
+AbstractEventExecutor <|-- SingleThreadEventExecutor
+SingleThreadEventExecutor <|-- SingleThreadEventLoop
+EventLoop <|-- SingleThreadEventLoop
+SingleThreadEventLoop <|-- NioEventLoop
+@enduml

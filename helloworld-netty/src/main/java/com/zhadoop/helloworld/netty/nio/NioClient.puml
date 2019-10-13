@@ -1,0 +1,17 @@
+@startuml
+autonumber
+
+NioClient --> ReactorThread: 打开 SocketChannel
+NioClient --> NioClient: 设置SocketChannel 为非阻塞模式，同时设置TCP参数
+NioClient --> Server: 异步连接到服务端
+NioClient --> ReactorThread: 判断连接结果，如果连接成功，调到步骤10，否则执行步骤5
+NioClient --> ReactorThread: 向Reactor 线程的多路复用器注册OP_CONNECT 事件
+ReactorThread --> doHandler: 创建Selector，启动线程
+ReactorThread --> doHandler: Selector 轮询就绪的 Key
+ReactorThread --> doHandler: handleConnect()
+doHandler --> doHandler: 判断连接是否完成，完成执行步骤10
+doHandler --> ReactorThread: 向多路复用器注册读事件OP_READ
+ReactorThread --> doHandler: handlerRead() 异步读请求消息到ByteBuffer
+doHandler --> doHandler: decode 请求消息
+doHandler --> ReactorThread: 异步写入ByteBuffer 到SocketChannel
+@enduml

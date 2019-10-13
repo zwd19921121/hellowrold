@@ -1,0 +1,15 @@
+@startuml
+autonumber
+
+NioServer --> ReactorThread: 打开 ServerSocketChannel
+NioServer --> ReactorThread: 绑定监听地址 InetSocketAddress
+ReactorThread --> doHandler: 创建Selector ,启动线程
+NioServer --> ReactorThread: 将ServerSocketChannel 注册到Selector ，监听
+ReactorThread --> doHandler: Selector 轮询就绪的Key
+doHandler --> ReactorThread: handleAccept() 处理新的客户端接入
+doHandler --> doHandler: 设置新建客户端连接的Socket 参数
+doHandler --> ReactorThread: 向Selector 注册监听读操作 SelectionKey.OP_READ
+ReactorThread --> doHandler: handlerRead() 异步读请求消息到ByteBuffer
+doHandler --> doHandler: decode 请求消息
+doHandler --> ReactorThread: 异步写入ByteBuffer 到SocketChannel
+@enduml

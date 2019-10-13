@@ -1,0 +1,14 @@
+@startuml
+autonumber
+actor 用户
+用户 --> ServerBootstrap: 创建ServerBootstrap实例
+ServerBootstrap --> EventLoopGroup: 设置并绑定Reactor 线程池
+EventLoopGroup --> NioServerSocketChannel: 设置并绑定服务端Channel
+EventLoopGroup --> ChannelPipeline: TCP链路建立时创建ChannelPipeline
+ServerBootstrap --> ChannelHandler: 添加并设置ChannelHandler
+ServerBootstrap --> ServerBootstrap: 绑定监听端口并启动服务端
+EventLoopGroup --> EventLoopGroup: Selector 轮询
+EventLoopGroup --> ChannelPipeline: 网络事件通知
+ChannelPipeline --> ChannelHandler: 执行Netty系统和业务HandlerChannel
+
+@enduml
